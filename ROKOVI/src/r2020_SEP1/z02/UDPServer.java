@@ -1,15 +1,11 @@
-package r2020_SEP1.z03;
+package r2020_SEP1.z02;
 
-import javax.xml.crypto.Data;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.*;
 import java.nio.ByteBuffer;
 import java.util.*;
-import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Supplier;
-import java.util.logging.Logger;
 import java.util.stream.Stream;
 
 public class UDPServer {
@@ -109,7 +105,7 @@ public class UDPServer {
 
     private void readEntries(String filename) throws IOException {
         entries = new ArrayList<>();
-        try(Scanner fileIn = new Scanner(new FileInputStream("./ROKOVI/src/r2020_SEP1/z03/" + filename))){
+        try(Scanner fileIn = new Scanner(new FileInputStream("./ROKOVI/src/r2020_SEP1/z02/" + filename))){
             m = fileIn.nextInt();
             n = fileIn.nextInt();
             System.out.println(m + " " + n);
