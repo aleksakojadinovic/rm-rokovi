@@ -152,7 +152,7 @@ public class BankServer {
                                     }else if (!isIdle){
                                         responseToUser = "This user is busy.";
                                     }else{
-                                        responseToUser = String.format("Successfully transferred $%d to account %d.\r\n\r\n", toAccount, amount);
+                                        responseToUser = String.format("Successfully transferred $%d to account %d.\r\n\r\n", amount, toAccount);
                                     }
 
                                     userState.currentWriteMode = UserWriteMode.CONFIRMATION;
