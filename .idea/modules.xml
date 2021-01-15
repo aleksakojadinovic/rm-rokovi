@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RANDOM/RANDOM.iml" filepath="$PROJECT_DIR$/RANDOM/RANDOM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/URLS/URLS.iml" filepath="$PROJECT_DIR$/URLS/URLS.iml" />
       <module fileurl="file://$PROJECT_DIR$/rm-rokovi.iml" filepath="$PROJECT_DIR$/rm-rokovi.iml" />
     </modules>
   </component>
